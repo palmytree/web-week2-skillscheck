@@ -1,0 +1,135 @@
+body {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #707070;
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 25px 50px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.company-logo {
+    padding-left: 50px;
+}
+
+.nav-links-container {
+    padding-right: 25px;
+}
+
+.nav-link {
+    padding: 0px 20px;
+}
+
+.main-banner {
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner-text {
+    color: #e9e05f;
+}
+
+.cards-container {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.small-card {
+    background-color: #a4ffd7;
+    height: 200px;
+    min-width: 200px;
+    width: 25%;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.large-card {
+    background-color: #ffc36c;
+    height: 200px;
+    width: 45%;
+    min-width: 315px;
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    min-height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.article-image {
+    min-width: 200px;
+    width: 35%;
+    height: auto;
+    margin: 10px;
+}
+
+.article-text {
+    /* padding: 75px; */
+    width: 35%;
+    min-width: 250px;
+    margin: 10px;
+}
+
+footer {
+    height: 80px;
+    background-color: #3a3a56;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin-top: 100px;
+    
+}
+
+/* @media only screen and (max-width: 850px) {
+    .cards-container {
+        justify-content: center;
+    }
+    article {
+        justify-content: center;
+    }
+} */
